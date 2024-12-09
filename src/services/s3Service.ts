@@ -5,10 +5,8 @@ import { Upload } from "@aws-sdk/lib-storage";
 const s3Client = new S3Client({
   region: "us-east-2",
   credentials: {
-    // accessKeyId: "AKIA3OGID57VBGNOQIGA",
-    accessKeyId: "AKIA3OGID57VEGMYAI3X",
-    // secretAccessKey: "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",
-    secretAccessKey: "AQJPHYkRu/fMsFa2wMzP5C5+QZiQDi9yAebyYTX/",
+    accessKeyId: "AKIA3OGID5",
+    secretAccessKey: "AQJPHYkRu/fMsFa",
   },
 });
 
